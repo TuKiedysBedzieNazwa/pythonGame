@@ -1,5 +1,4 @@
 import pygame
-from game import Game
 
 pygame.init()
 
@@ -10,7 +9,3 @@ acceleration = 0
 
 y = 400
 x = 400
-
-
-while True:
-    Game(width, height, display, acceleration, x, y)
